@@ -17,11 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently studying for a master's degree in computer science at the University of Science and Technology of China（中国科学技术大学）<span style="color: red;">中国</span>
+I am currently studying for a master's degree in computer science at the University of Science and Technology of China（<span style="color: red;">中国科学技术大学</span>—）
 
 I am currently engaged in computer vision research. If you are seeking any form of academic cooperation, please feel free to email me: 1005833640@qq.com.
 
-I graduated from North China Electric Power University（华北电力大学） with a bachelor's degree 
+I graduated from North China Electric Power University（<span style="color: red;">华北电力大学</span>—）with a bachelor's degree 
 
 
 
