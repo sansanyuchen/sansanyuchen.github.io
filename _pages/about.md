@@ -49,11 +49,13 @@ I graduated from North China Electric Power University with a bachelor's degree
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 -->
 # 🎖 Honors and Awards
-
+- *2023.08* Science and Technology Innovation Scholarship
+- *2022.11* National-level college student innovation and entrepreneurship project leader
 - *2022.09* Second Prize in the Beijing Division of China Undergraduate Mathematical Contest in Modeling.
+- *2022.08* Science and Technology Innovation Scholarship
 - *2022.05* First Prize in the Mathematical Modeling Competition of North China Electric Power University.
 - *2022.02* Honorable Mention in Mathematical Contest In ModelingCertificate of Achievement.
-
+- *2021.08* Science and Technology Innovation Scholarship
 # 📖 Educations
 - *2024.09 - 2027.06 (now)*,  Master,Institute of Advanced Technology,University of Science and Technology of China,Hefei.
 - *2020.09 - 2024.06*, Undergraduate, College of New Energy, North China Electric Power University,Beijing.
