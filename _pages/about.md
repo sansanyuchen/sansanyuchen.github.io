@@ -21,7 +21,7 @@ I am currently studying for a master's degree in computer science at the Univers
 
 I am currently engaged in computer vision research. If you are seeking any form of academic cooperation, please feel free to email me: 1005833640@qq.com.
 
-I graduated from North China Electric Power University with a bachelor's degree and graduated from
+I graduated from North China Electric Power University with a bachelor's degree 
 
 
 
