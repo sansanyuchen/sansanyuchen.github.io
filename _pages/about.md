@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently studying for a master's degree in computer science at the University of Science and Technology of China（中国科学技术大学）<pre style="color: blue;">这是蓝色字体</pre>
+I am currently studying for a master's degree in computer science at the University of Science and Technology of China（中国科学技术大学）<span style="color: red;">中国</span>
 
 I am currently engaged in computer vision research. If you are seeking any form of academic cooperation, please feel free to email me: 1005833640@qq.com.
 
