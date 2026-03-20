@@ -17,23 +17,21 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# 关于我 | About Me
-我是中国科学技术大学（USTC）计算机技术硕士研究生（2024.09 - 2027.06），本科毕业于华北电力大学（2020.09 - 2024.06）。研究方向聚焦于大模型后训练与高效推理。
+# About Me
+I am an M.S. student in Computer Technology at the University of Science and Technology of China (USTC), from 2024.09 to 2027.06. I received my B.E. degree from North China Electric Power University (2020.09 - 2024.06). My research focuses on LLM post-training and efficient inference.
 
-I am an M.S. student in Computer Technology at USTC (2024.09 - 2027.06), with a B.E. degree from North China Electric Power University (2020.09 - 2024.06). My research focuses on LLM post-training and efficient inference.
-
-联系方式 | Contact: `wangyuc@mail.ustc.edu.cn`
+Contact: `wangyuc@mail.ustc.edu.cn`
 
 <span class='anchor' id='news'></span>
 
-# 动态 | News
-- *2026.03* 一作论文 **SepPrune** 被 **ICME 2026** 接收。 / **SepPrune** accepted by **ICME 2026** (First Author).
-- *2026.03* 共同一作论文 **HAWK** 被 **CVPR 2026** 接收。 / **HAWK** accepted by **CVPR 2026** (Co-first Author).
-- *2026* 统一后训练推理增强框架相关工作投稿 **KDD 2026（在审）**。 / Unified post-training reasoning framework submitted to **KDD 2026**.
+# News
+- *2026.03* **SepPrune** was accepted by **ICME 2026** (First Author).
+- *2026.03* **HAWK** was accepted by **CVPR 2026** (Co-first Author).
+- *2026* Work on a unified post-training reasoning framework was submitted to **KDD 2026**.
 
 <span class='anchor' id='interests'></span>
 
-# 研究方向 | Research Interests
+# Research Interests
 - LLM Post-training
 - RLHF / PPO / GRPO / DPO
 - CoT Reasoning for complex tasks
@@ -41,17 +39,17 @@ I am an M.S. student in Computer Technology at USTC (2024.09 - 2027.06), with a 
 
 <span class='anchor' id='internships'></span>
 
-# 实习经历 | Internship Experience
-- *2025.09 - 2026.02* 阿里巴巴 Qwen（C 端）算法实习生（LLM Post-training）/ Algorithm Intern at Alibaba Qwen.
-- 统一 `SFT + GRPO` 后训练框架，提出基于 PPL 的自适应损失加权机制。 / Proposed a unified `SFT + GRPO` framework with PPL-based adaptive loss weighting.
-- 在 AIME24/25 等推理基准与域外数据上优于 baseline。 / Outperformed baselines on AIME24/25 and out-of-domain benchmarks.
-- 构建 `Qwen3-235B-A22B` 教育检错模型，离线评估达到 **95.7% precision / 63.2% recall**。 / Built an end-to-end verification model with **95.7% precision / 63.2% recall**.
-- *2025.05 - 2025.09* 华为诺亚方舟实验室算法实习生（MLLM）/ Algorithm Intern at Huawei Noah's Ark Lab.
-- 面向高分辨率输入设计训练无关视觉 Token 剪枝方法。 / Designed training-free visual token pruning for high-resolution MLLM inference.
+# Internship Experience
+- *2025.09 - 2026.02* Algorithm Intern at Alibaba Qwen (LLM Post-training).
+- Explored a unified `SFT + GRPO` framework and proposed a PPL-based adaptive loss weighting method.
+- Outperformed baselines on AIME24/25 and out-of-domain reasoning benchmarks.
+- Built an end-to-end verification model based on `Qwen3-235B-A22B`, reaching **95.7% precision / 63.2% recall** in offline evaluation.
+- *2025.05 - 2025.09* Algorithm Intern at Huawei Noah's Ark Lab (MLLM).
+- Designed training-free visual token pruning methods for high-resolution multimodal inference.
 
 <span class='anchor' id='publications'></span>
 
-# 论文成果 | Publications
+# Publications
 - **SepPrune: A Separator-based Pruning Framework for Efficient Multimodal Large Language Models**  
   First Author, Accepted at ICME 2026.
 - **HAWK: Head Importance-Aware Visual Token Pruning in Multimodal Models**  
@@ -59,18 +57,18 @@ I am an M.S. student in Computer Technology at USTC (2024.09 - 2027.06), with a 
 
 <span class='anchor' id='skills'></span>
 
-# 技能 | Skills
+# Skills
 - Core: LLM Post-training, RLHF, PPO, GRPO, DPO, CoT Reasoning, Data Synthesis
 - Frameworks: PyTorch, Verl, Swift, vLLM, Transformers
 
 <span class='anchor' id='honors'></span>
 
-# 荣誉奖励 | Honors and Awards
-- *2025* 中国科学技术大学硕士一等学业奖学金 / First-Class Academic Scholarship, USTC
-- *2022* 中国大学生数学建模竞赛北京赛区二等奖 / Second Prize, Beijing Division of CUMCM
+# Honors and Awards
+- *2025* First-Class Academic Scholarship, USTC
+- *2022* Second Prize, Beijing Division of CUMCM
 
 <span class='anchor' id='education'></span>
 
-# 教育背景 | Education
+# Education
 - *2024.09 - 2027.06 (Now)* Master, Computer Technology, University of Science and Technology of China
 - *2020.09 - 2024.06* Bachelor, New Energy Science and Engineering, North China Electric Power University

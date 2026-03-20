@@ -1,25 +1,25 @@
 # main links links
 main:
-  - title: "关于我 | About"
+  - title: "About"
     url: "/#about-me"
 
-  - title: "动态 | News"
+  - title: "News"
     url: "/#news"
 
-  - title: "研究方向 | Interests"
+  - title: "Interests"
     url: "/#interests"
 
-  - title: "实习经历 | Internships"
+  - title: "Internships"
     url: "/#internships"
 
-  - title: "论文成果 | Publications"
+  - title: "Publications"
     url: "/#publications"
 
-  - title: "技能 | Skills"
+  - title: "Skills"
     url: "/#skills"
 
-  - title: "荣誉 | Honors"
+  - title: "Honors"
     url: "/#honors"
 
-  - title: "教育背景 | Education"
+  - title: "Education"
     url: "/#education"
