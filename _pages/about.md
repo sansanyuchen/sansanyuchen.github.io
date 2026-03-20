@@ -21,6 +21,7 @@ redirect_from:
 I am an M.S. student in Computer Technology at the University of Science and Technology of China (USTC), from 2024.09 to 2027.06. I received my B.E. degree from North China Electric Power University (2020.09 - 2024.06). My research focuses on LLM post-training and efficient inference.
 
 Contact: `wangyuc@mail.ustc.edu.cn`
+GitHub: [https://github.com/sansanyuchen](https://github.com/sansanyuchen)
 
 <span class='anchor' id='news'></span>
 
