@@ -40,12 +40,11 @@ Contact: `wangyuc@mail.ustc.edu.cn`
 <span class='anchor' id='internships'></span>
 
 # Internship Experience
-- *2025.09 - 2026.02* Algorithm Intern at Alibaba Qwen (LLM Post-training).
-- Explored a unified `SFT + GRPO` framework and proposed a PPL-based adaptive loss weighting method.
-- Outperformed baselines on AIME24/25 and out-of-domain reasoning benchmarks.
-- Built an end-to-end verification model based on `Qwen3-235B-A22B`, reaching **95.7% precision / 63.2% recall** in offline evaluation.
-- *2025.05 - 2025.09* Algorithm Intern at Huawei Noah's Ark Lab (MLLM).
-- Designed training-free visual token pruning methods for high-resolution multimodal inference.
+**Alibaba Qwen (C-end), Algorithm Intern (LLM Post-training), 2025.09 - 2026.02.**  
+I explored a unified `SFT + GRPO` framework and proposed a PPL-based adaptive loss weighting method. The approach outperformed baselines on AIME24/25 and out-of-domain reasoning benchmarks. I also built an end-to-end verification model based on `Qwen3-235B-A22B`, reaching **95.7% precision / 63.2% recall** in offline evaluation.
+
+**Huawei Noah's Ark Lab, Algorithm Intern (MLLM), 2025.05 - 2025.09.**  
+I focused on efficient multimodal inference and designed training-free visual token pruning methods for high-resolution MLLM inputs, aiming to reduce computational cost while preserving model performance.
 
 <span class='anchor' id='publications'></span>
 
