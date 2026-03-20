@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Wang Yuchen"
-description              : "Student,Computer Science,University of Science and Technology of China "
+title                    : "王煜晨 | Wang Yuchen"
+description              : "USTC Master Student | LLM Post-training, RLHF, and MLLM Efficient Inference"
 repository               : "sansanyuchen/sansanyuchen.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Wang Yuchen（王煜晨）"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "University of Science and Technology of China"
-  location         : "Beijing, China"
+  bio              : "M.S. Student at USTC | LLM & MLLM"
+  location         : "Hefei, China"
   employer         :
   pubmed           : 
   googlescholar    : #"https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "1005833640@qq.com"
+  email            : "wangyuc@mail.ustc.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
