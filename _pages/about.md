@@ -28,7 +28,7 @@ GitHub 🐙: [https://github.com/sansanyuchen](https://github.com/sansanyuchen)
 # News 📰
 - *2026.03* **SepPrune** was accepted by **ICME 2026** (First Author).
 - *2026.03* **HAWK** was accepted by **CVPR 2026**.
-- *2026* Work on a unified post-training reasoning framework was submitted to **KDD 2026**.
+- *2026* **APEX** was submitted to **EMNLP 2026**.
 
 <span class='anchor' id='interests'></span>
 
