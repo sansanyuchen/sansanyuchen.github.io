@@ -54,7 +54,7 @@ I focused on efficient multimodal inference and designed training-free visual to
 
 # Publications 📚
 - **APEX: Adaptively Balancing Off-Policy Guidance and On-Policy Exploration for Efficient LLM Reasoning**  
-  Submitted to EMNLP 2026.
+  First Author, Submitted to EMNLP 2026.
 - **SepPrune: A Separator-based Pruning Framework for Efficient Multimodal Large Language Models**  
   First Author, Accepted at ICME 2026.
 - **HAWK: Head Importance-Aware Visual Token Pruning in Multimodal Models**  
