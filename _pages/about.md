@@ -27,7 +27,7 @@ GitHub 🐙: [https://github.com/sansanyuchen](https://github.com/sansanyuchen)
 
 # News 📰
 - *2026.03* **SepPrune** was accepted by **ICME 2026** (First Author).
-- *2026.03* **HAWK** was accepted by **CVPR 2026** (Co-first Author).
+- *2026.03* **HAWK** was accepted by **CVPR 2026**.
 - *2026* Work on a unified post-training reasoning framework was submitted to **KDD 2026**.
 
 <span class='anchor' id='interests'></span>
@@ -56,7 +56,7 @@ I focused on efficient multimodal inference and designed training-free visual to
 - **SepPrune: A Separator-based Pruning Framework for Efficient Multimodal Large Language Models**  
   First Author, Accepted at ICME 2026.
 - **HAWK: Head Importance-Aware Visual Token Pruning in Multimodal Models**  
-  Co-first Author, Accepted at CVPR 2026.
+  Accepted at CVPR 2026.
 
 <span class='anchor' id='skills'></span>
 
