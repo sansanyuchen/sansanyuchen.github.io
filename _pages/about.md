@@ -72,7 +72,7 @@ I focused on efficient multimodal inference and designed training-free visual to
 
 # Honors and Awards 🏆
 - *2025* First-Class Academic Scholarship, USTC
-- *2022* Second Prize, Beijing Division of CUMCM
+- *2022* Second Prize, Beijing Division of China Undergraduate Mathematical Contest in Modeling (CUMCM)
 
 <span class='anchor' id='education'></span>
 
