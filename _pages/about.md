@@ -18,7 +18,9 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # About Me 🚀
-I am an M.S. student in Computer Technology at the University of Science and Technology of China (USTC), from 2024.09 to 2027.06. I received my B.E. degree from North China Electric Power University (2020.09 - 2024.06). My research focuses on LLM post-training and efficient inference.
+I am an M.S. student in Computer Technology at the University of Science and Technology of China (USTC), from 2024.09 to 2027.06. My research focuses on **LLM post-training, reinforcement learning for reasoning, and efficient multimodal inference**.
+
+I am currently an algorithm intern at **ByteDance Data - Douyin**, working on reinforcement learning and AutoResearch-style training for customer service models. I am open to academic collaborations on LLM reasoning, post-training, and efficient MLLM inference. Please feel free to contact me.
 
 Contact 📫: `wangyuc@mail.ustc.edu.cn`
 GitHub 🐙: [https://github.com/sansanyuchen](https://github.com/sansanyuchen)
