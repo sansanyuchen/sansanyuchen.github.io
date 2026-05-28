@@ -58,7 +58,7 @@ I focused on efficient multimodal inference and designed training-free visual to
 - **SepPrune: A Separator-based Pruning Framework for Efficient Multimodal Large Language Models**  
   First Author, Accepted at ICME 2026.
 - **HAWK: Head Importance-Aware Visual Token Pruning in Multimodal Models**  
-  Accepted at CVPR 2026.
+  Accepted at CVPR 2026. [[arXiv](https://arxiv.org/abs/2604.07812)]
 
 <span class='anchor' id='skills'></span>
 
