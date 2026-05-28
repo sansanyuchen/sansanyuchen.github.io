@@ -32,13 +32,11 @@ GitHub 🐙: [https://github.com/sansanyuchen](https://github.com/sansanyuchen)
 - *2026.03* **HAWK** was accepted by **CVPR 2026**.
 - *2026* **APEX** was submitted to **EMNLP 2026**.
 
-<span class='anchor' id='interests'></span>
+<span class='anchor' id='education'></span>
 
-# Research Interests 🔍
-- LLM Post-training
-- RLHF / PPO / GRPO / DPO
-- CoT Reasoning for complex tasks
-- Efficient Inference for MLLMs (training-free visual token pruning)
+# Education 🎓
+- *2024.09 - 2027.06 (Now)* Master, Computer Technology, University of Science and Technology of China
+- *2020.09 - 2024.06* Bachelor, New Energy Science and Engineering, North China Electric Power University
 
 <span class='anchor' id='internships'></span>
 
@@ -68,14 +66,16 @@ I focused on efficient multimodal inference and designed training-free visual to
 - Core: LLM Post-training, RLHF, PPO, GRPO, DPO, CoT Reasoning, Data Synthesis
 - Frameworks: PyTorch, Verl, Swift, vLLM, Transformers
 
+<span class='anchor' id='interests'></span>
+
+# Research Interests 🔍
+- LLM Post-training
+- RLHF / PPO / GRPO / DPO
+- CoT Reasoning for complex tasks
+- Efficient Inference for MLLMs (training-free visual token pruning)
+
 <span class='anchor' id='honors'></span>
 
 # Honors and Awards 🏆
 - *2025* First-Class Academic Scholarship, USTC
 - *2022* Second Prize, Beijing Division of China Undergraduate Mathematical Contest in Modeling (CUMCM)
-
-<span class='anchor' id='education'></span>
-
-# Education 🎓
-- *2024.09 - 2027.06 (Now)* Master, Computer Technology, University of Science and Technology of China
-- *2020.09 - 2024.06* Bachelor, New Energy Science and Engineering, North China Electric Power University
