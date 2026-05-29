@@ -54,10 +54,16 @@ I focused on efficient multimodal inference and designed training-free visual to
 
 # Publications 📚
 - **APEX: Adaptively Balancing Off-Policy Guidance and On-Policy Exploration for Efficient LLM Reasoning**  
-  First Author, Submitted to EMNLP 2026.
+  **Yuchen Wang**, et al.  
+  University of Science and Technology of China.  
+  Submitted to EMNLP 2026.
 - **SepPrune: A Separator-based Pruning Framework for Efficient Multimodal Large Language Models**  
-  First Author, Accepted at ICME 2026.
+  **Yuchen Wang**, et al.  
+  University of Science and Technology of China.  
+  Accepted at ICME 2026.
 - **HAWK: Head Importance-Aware Visual Token Pruning in Multimodal Models**  
+  Qihui Zhu, Tao Zhang, **Yuchen Wang**, Shuangwu Chen, Xiaobin Tan, Jian Yang, Yang Liu, Yinfei Pan.  
+  University of Science and Technology of China; ChangXin Memory Technologies, Inc.; Huawei Noah's Ark Lab.  
   Accepted at CVPR 2026. [[arXiv](https://arxiv.org/abs/2604.07812)]
 
 <span class='anchor' id='skills'></span>
