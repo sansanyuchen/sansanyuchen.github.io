@@ -6,8 +6,8 @@ main:
   - title: "News"
     url: "/#news"
 
-  - title: "Interests"
-    url: "/#interests"
+  - title: "Education"
+    url: "/#education"
 
   - title: "Internships"
     url: "/#internships"
@@ -18,8 +18,8 @@ main:
   - title: "Skills"
     url: "/#skills"
 
+  - title: "Interests"
+    url: "/#interests"
+
   - title: "Honors"
     url: "/#honors"
-
-  - title: "Education"
-    url: "/#education"

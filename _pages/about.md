@@ -28,9 +28,10 @@ GitHub 🐙: [https://github.com/sansanyuchen](https://github.com/sansanyuchen)
 <span class='anchor' id='news'></span>
 
 # News 📰
+- *2026.05* **APEX** was submitted to **EMNLP 2026**.
+- *2026.04* Joined **ByteDance Data - Douyin** as an Application Algorithm Intern.
 - *2026.03* **SepPrune** was accepted by **ICME 2026** (First Author).
 - *2026.03* **HAWK** was accepted by **CVPR 2026**.
-- *2026* **APEX** was submitted to **EMNLP 2026**.
 
 <span class='anchor' id='education'></span>
 
@@ -53,12 +54,12 @@ I focused on efficient multimodal inference and designed training-free visual to
 <span class='anchor' id='publications'></span>
 
 # Publications 📚
-- **APEX: Adaptively Balancing Off-Policy Guidance and On-Policy Exploration for Efficient LLM Reasoning**  
-  **Yuchen Wang**, et al.  
+- **APEX: Adaptively Balancing Off-Policy Guidance and On-Policy Exploration for LLM Reasoning**  
+  **Yuchen Wang**, et al. (First author).  
   University of Science and Technology of China.  
   Submitted to EMNLP 2026.
 - **SepPrune: A Separator-based Pruning Framework for Efficient Multimodal Large Language Models**  
-  **Yuchen Wang**, et al.  
+  **Yuchen Wang**, et al. (First author).  
   University of Science and Technology of China.  
   Accepted at ICME 2026.
 - **HAWK: Head Importance-Aware Visual Token Pruning in Multimodal Models**  
