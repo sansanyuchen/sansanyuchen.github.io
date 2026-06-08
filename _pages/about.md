@@ -22,6 +22,15 @@ I am an M.S. student in Computer Technology at the University of Science and Tec
 
 I am currently an algorithm intern at **ByteDance Data - Douyin**, working on reinforcement learning and AutoResearch-style training for customer service models. I am open to academic collaborations on LLM reasoning, post-training, and efficient MLLM inference. Please feel free to contact me.
 
+<div class="about-tags">
+  <span>LLM Post-training</span>
+  <span>RL for Reasoning</span>
+  <span>AutoResearch Training</span>
+  <span>Efficient MLLM Inference</span>
+  <span>Visual Token Pruning</span>
+  <span>Open to Collaboration</span>
+</div>
+
 Contact 📫: `wangyuc@mail.ustc.edu.cn`
 GitHub 🐙: [https://github.com/sansanyuchen](https://github.com/sansanyuchen)
 
