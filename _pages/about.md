@@ -75,6 +75,7 @@ I focused on efficient multimodal inference and designed training-free visual to
     <div class="pub-title">SepPrune: A Separator-based Pruning Framework for Efficient Multimodal Large Language Models</div>
     <div class="pub-authors"><strong>Yuchen Wang</strong>, et al. <span class="pub-role">First author</span></div>
     <div class="pub-affiliation">University of Science and Technology of China.</div>
+    <div class="pub-desc">A training-free, plug-and-play vision token pruning framework that uses modality separator tokens as unified queries; retains 96.3% accuracy while dropping 80.2% visual tokens on Qwen2.5-VL-7B.</div>
     <div class="pub-meta"><span class="pub-badge">ICME 2026</span><span class="pub-dot">Accepted</span></div>
   </div>
 
