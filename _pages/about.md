@@ -45,7 +45,8 @@ GitHub 🐙: [https://github.com/sansanyuchen](https://github.com/sansanyuchen)
 <span class='anchor' id='education'></span>
 
 # Education 🎓
-- *2024.09 - 2027.06 (Now)* Master, Computer Technology, University of Science and Technology of China
+- *2024.09 - 2027.06 (Now)* Master, Computer Technology, University of Science and Technology of China  
+  Advisor: Prof. Xiaoyan Sun
 - *2020.09 - 2024.06* Bachelor, New Energy Science and Engineering, North China Electric Power University
 
 <span class='anchor' id='internships'></span>
