@@ -68,21 +68,21 @@ I focused on efficient multimodal inference and designed training-free visual to
     <div class="pub-title">APEX: Adaptively Balancing Off-Policy Guidance and On-Policy Exploration for LLM Reasoning</div>
     <div class="pub-authors"><strong>Yuchen Wang</strong>, et al. <span class="pub-role">First author</span></div>
     <div class="pub-affiliation">University of Science and Technology of China.</div>
-    <div class="pub-meta"><span class="pub-badge pub-badge--submitted">EMNLP 2026</span><span>Submitted</span></div>
+    <div class="pub-meta"><span class="pub-badge pub-badge--submitted">EMNLP 2026</span><span class="pub-dot">Submitted</span></div>
   </div>
 
   <div class="pub-item">
     <div class="pub-title">SepPrune: A Separator-based Pruning Framework for Efficient Multimodal Large Language Models</div>
     <div class="pub-authors"><strong>Yuchen Wang</strong>, et al. <span class="pub-role">First author</span></div>
     <div class="pub-affiliation">University of Science and Technology of China.</div>
-    <div class="pub-meta"><span class="pub-badge">ICME 2026</span><span>Accepted</span></div>
+    <div class="pub-meta"><span class="pub-badge">ICME 2026</span><span class="pub-dot">Accepted</span></div>
   </div>
 
   <div class="pub-item">
     <div class="pub-title">HAWK: Head Importance-Aware Visual Token Pruning in Multimodal Models</div>
     <div class="pub-authors">Qihui Zhu, Tao Zhang, <strong>Yuchen Wang</strong>, Shuangwu Chen, Xiaobin Tan, Jian Yang, Yang Liu, Yinfei Pan.</div>
     <div class="pub-affiliation">University of Science and Technology of China; ChangXin Memory Technologies, Inc.; Huawei Noah's Ark Lab.</div>
-    <div class="pub-meta"><span class="pub-badge">CVPR 2026</span><span>Accepted</span><a href="https://arxiv.org/abs/2604.07812">arXiv</a></div>
+    <div class="pub-meta"><span class="pub-badge">CVPR 2026</span><span class="pub-dot">Accepted</span><a href="https://arxiv.org/abs/2604.07812">arXiv</a></div>
   </div>
 </div>
 

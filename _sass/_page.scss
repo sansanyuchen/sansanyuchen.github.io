@@ -231,6 +231,12 @@
     }
   }
 
+  .pub-dot:before {
+    content: "·";
+    margin-right: 0.45rem;
+    color: #98a2b3;
+  }
+
   .pub-badge {
     display: inline-flex;
     align-items: center;
