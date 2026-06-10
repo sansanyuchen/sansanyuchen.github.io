@@ -52,14 +52,52 @@ GitHub 🐙: [https://github.com/sansanyuchen](https://github.com/sansanyuchen)
 <span class='anchor' id='internships'></span>
 
 # Internship Experience 💼
-![ByteDance logo](/images/company-icons/bytedance.svg){: .company-icon } **ByteDance Data - Douyin, Application Algorithm Intern (LLM Post-training), 2026.04 - Present.**  
-I work on post-training algorithms for customer service foundation models across ByteDance apps. My work combines Seed/Qwen-series LLMs with customer-service dialogue data, business knowledge bases, and multi-turn interaction logs to build reinforcement learning pipelines for improving task-oriented response quality and model behavior.
+<div class="internship-list">
+  <div class="internship-card">
+    <img src="/images/company-icons/bytedance.svg" alt="ByteDance logo" class="internship-logo">
+    <div class="internship-body">
+      <div class="internship-head">
+        <div>
+          <div class="internship-company">ByteDance Data - Douyin</div>
+          <div class="internship-role">Application Algorithm Intern · LLM Post-training</div>
+        </div>
+        <div class="internship-time">2026.04 - Present</div>
+      </div>
+      <div class="internship-tags"><span>Customer Service Models</span><span>Seed/Qwen LLMs</span><span>RL Post-training</span></div>
+      <p>I work on post-training algorithms for customer service foundation models across ByteDance apps. My work combines Seed/Qwen-series LLMs with customer-service dialogue data, business knowledge bases, and multi-turn interaction logs to build reinforcement learning pipelines for improving task-oriented response quality and model behavior.</p>
+    </div>
+  </div>
 
-![Alibaba logo](/images/company-icons/alibaba.svg){: .company-icon } **Alibaba Qwen (C-end), Algorithm Intern (LLM Post-training), 2025.09 - 2026.02.**  
-I explored a unified `SFT + GRPO` framework for reasoning-oriented post-training and proposed a PPL-based adaptive loss weighting method to balance supervision and exploration on difficult samples. The approach outperformed baselines on AIME24/25 and out-of-domain reasoning benchmarks. I also built an end-to-end verification model based on `Qwen3-235B-A22B`, using data flywheel signals, majority voting, reward design, and online curriculum learning to train from weakly labeled data; the system reached **95.7% precision / 63.2% recall** in offline evaluation and supported Qwen/Quark education scenarios.
+  <div class="internship-card">
+    <img src="/images/company-icons/alibaba.svg" alt="Alibaba logo" class="internship-logo">
+    <div class="internship-body">
+      <div class="internship-head">
+        <div>
+          <div class="internship-company">Alibaba Qwen (C-end)</div>
+          <div class="internship-role">Algorithm Intern · LLM Post-training</div>
+        </div>
+        <div class="internship-time">2025.09 - 2026.02</div>
+      </div>
+      <div class="internship-tags"><span>SFT + GRPO</span><span>PPL Weighting</span><span>Verifier Training</span></div>
+      <p>I explored a unified <code>SFT + GRPO</code> framework for reasoning-oriented post-training and proposed a PPL-based adaptive loss weighting method to balance supervision and exploration on difficult samples. The approach outperformed baselines on AIME24/25 and out-of-domain reasoning benchmarks. I also built an end-to-end verification model based on <code>Qwen3-235B-A22B</code>, using data flywheel signals, majority voting, reward design, and online curriculum learning to train from weakly labeled data; the system reached <strong>95.7% precision / 63.2% recall</strong> in offline evaluation and supported Qwen/Quark education scenarios.</p>
+    </div>
+  </div>
 
-![Huawei logo](/images/company-icons/huawei.svg){: .company-icon } **Huawei Noah's Ark Lab, Algorithm Intern (MLLM), 2025.05 - 2025.09.**  
-I focused on efficient multimodal inference for high-resolution MLLM inputs, designing training-free visual token pruning methods to reduce latency and memory cost without modifying model architectures. I developed two plug-and-play pruning frameworks around separator-token anchoring and head-importance-aware scoring; on Qwen2.5-VL-style models, the methods preserved strong performance under aggressive token reduction and led to **ICME 2026** and **CVPR 2026** publications.
+  <div class="internship-card">
+    <img src="/images/company-icons/huawei.svg" alt="Huawei logo" class="internship-logo">
+    <div class="internship-body">
+      <div class="internship-head">
+        <div>
+          <div class="internship-company">Huawei Noah's Ark Lab</div>
+          <div class="internship-role">Algorithm Intern · MLLM</div>
+        </div>
+        <div class="internship-time">2025.05 - 2025.09</div>
+      </div>
+      <div class="internship-tags"><span>Efficient MLLM</span><span>Token Pruning</span><span>Training-free Inference</span></div>
+      <p>I focused on efficient multimodal inference for high-resolution MLLM inputs, designing training-free visual token pruning methods to reduce latency and memory cost without modifying model architectures. I developed two plug-and-play pruning frameworks around separator-token anchoring and head-importance-aware scoring; on Qwen2.5-VL-style models, the methods preserved strong performance under aggressive token reduction and led to <strong>ICME 2026</strong> and <strong>CVPR 2026</strong> publications.</p>
+    </div>
+  </div>
+</div>
 
 <span class='anchor' id='publications'></span>
 

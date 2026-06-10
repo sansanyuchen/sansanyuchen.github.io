@@ -119,6 +119,118 @@
     vertical-align: -0.18em;
   }
 
+  .internship-list {
+    display: grid;
+    gap: 0.95rem;
+    margin: 0.2rem 0 0.55rem;
+  }
+
+  .internship-card {
+    display: grid;
+    grid-template-columns: 2.45rem minmax(0, 1fr);
+    gap: 0.82rem;
+    padding: 0.92rem 1rem;
+    border: 1px solid rgba(34, 75, 141, 0.1);
+    border-radius: 8px;
+    background: linear-gradient(135deg, rgba(238, 246, 255, 0.85), rgba(255, 255, 255, 0.96));
+    box-shadow: 0 1px 3px rgba(31, 41, 55, 0.06);
+  }
+
+  .internship-logo {
+    width: 2.25rem;
+    height: 2.25rem;
+    padding: 0.35rem;
+    border: 1px solid rgba(34, 75, 141, 0.1);
+    border-radius: 8px;
+    background: #fff;
+    object-fit: contain;
+  }
+
+  .internship-body {
+    min-width: 0;
+
+    p {
+      margin: 0.45rem 0 0;
+      color: #4a5563;
+      font-size: 0.95em;
+      line-height: 1.5;
+    }
+  }
+
+  .internship-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.75rem;
+  }
+
+  .internship-company {
+    color: #242b33;
+    font-family: $sans-serif;
+    font-size: 1.02em;
+    font-weight: 800;
+    line-height: 1.25;
+  }
+
+  .internship-role,
+  .internship-time {
+    color: #667085;
+    font-size: 0.88em;
+    font-weight: 700;
+    line-height: 1.35;
+  }
+
+  .internship-time {
+    flex: 0 0 auto;
+    padding-top: 0.05rem;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .internship-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.38rem;
+    margin-top: 0.5rem;
+
+    span {
+      display: inline-flex;
+      min-height: 1.35rem;
+      align-items: center;
+      padding: 0.12rem 0.45rem;
+      border: 1px solid rgba(60, 140, 255, 0.14);
+      border-radius: 999px;
+      color: #1f5ea8;
+      background: rgba(255, 255, 255, 0.78);
+      font-size: 0.76em;
+      font-weight: 800;
+      line-height: 1.15;
+      white-space: nowrap;
+    }
+  }
+
+  @media (max-width: 37.5em) {
+    .internship-card {
+      grid-template-columns: 2.2rem minmax(0, 1fr);
+      padding: 0.82rem;
+    }
+
+    .internship-logo {
+      width: 2rem;
+      height: 2rem;
+      padding: 0.3rem;
+    }
+
+    .internship-head {
+      display: block;
+    }
+
+    .internship-time {
+      margin-top: 0.18rem;
+      text-align: left;
+    }
+  }
+
   .about-tags {
     display: flex;
     flex-wrap: wrap;
