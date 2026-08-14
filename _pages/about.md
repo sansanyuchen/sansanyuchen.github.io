@@ -1,146 +1,236 @@
 ---
 permalink: /
 title: ""
-excerpt: ""
-author_profile: true
+excerpt: "Yuchen Wang is an M.S. candidate at USTC working on LLM post-training, reinforcement learning, on-policy distillation, and efficient multimodal inference."
+author_profile: false
 redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<section class="profile-hero" id="about-me" aria-labelledby="profile-name">
+  <div class="profile-hero__copy">
+    <p class="profile-hero__eyebrow">LLM Post-training · Multimodal Learning</p>
+    <h1 id="profile-name">Yuchen Wang <span lang="zh-CN">王煜晨</span></h1>
+    <p class="profile-hero__role">M.S. Candidate in Computer Technology at USTC</p>
+    <p class="profile-hero__intro">
+      I work on post-training systems that make language and multimodal models more capable, reliable, and efficient. My current interests include reinforcement learning for reasoning, on-policy self-distillation, and training-free visual token pruning.
+    </p>
+    <p class="profile-hero__current">
+      Currently, I am an LLM Algorithm Engineer Intern with ByteDance Data - Douyin, developing agentic reinforcement learning methods for reliable multi-turn customer-service models. I am advised by Prof. Xiaoyan Sun at the University of Science and Technology of China.
+    </p>
+    <div class="profile-hero__actions" aria-label="Contact and profile links">
+      <a class="profile-button profile-button--primary" href="mailto:wangyuc@mail.ustc.edu.cn"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a>
+      <a class="profile-button" href="https://github.com/sansanyuchen"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+    </div>
+    <dl class="profile-hero__meta">
+      <div><dt>Based in</dt><dd>Hefei, China</dd></div>
+      <div><dt>Current role</dt><dd>ByteDance Data - Douyin</dd></div>
+      <div><dt>Open to</dt><dd>Research collaboration</dd></div>
+    </dl>
+  </div>
+  <figure class="profile-hero__portrait">
+    <img src="{{ '/images/android-chrome-512x512.png' | relative_url }}" alt="Portrait of Yuchen Wang">
+  </figure>
+</section>
 
-<span class='anchor' id='about-me'></span>
+<section class="site-section" id="research" aria-labelledby="research-heading">
+  <header class="section-heading">
+    <p class="section-kicker">Research</p>
+    <h2 id="research-heading">Problems I care about</h2>
+    <p>I study the learning signals and inference mechanisms that help foundation models reason better without making deployment unnecessarily expensive.</p>
+  </header>
+  <div class="research-grid">
+    <article class="research-item">
+      <span class="research-item__number">01</span>
+      <h3>Reasoning & Reinforcement Learning</h3>
+      <p>Balancing expert guidance and on-policy exploration for hard reasoning tasks with sparse rewards.</p>
+    </article>
+    <article class="research-item">
+      <span class="research-item__number">02</span>
+      <h3>On-Policy Distillation</h3>
+      <p>Turning naturally available privileged information into dense supervision for efficient self-improvement.</p>
+    </article>
+    <article class="research-item">
+      <span class="research-item__number">03</span>
+      <h3>Efficient Multimodal Inference</h3>
+      <p>Pruning redundant visual tokens while preserving the information required for accurate multimodal reasoning.</p>
+    </article>
+  </div>
+</section>
 
-# About Me 🚀
-I am an M.S. student in Computer Technology at the University of Science and Technology of China (USTC), from 2024.09 to 2027.06. My research focuses on **LLM post-training, reinforcement learning for reasoning, and efficient multimodal inference**.
+<section class="site-section" id="news" aria-labelledby="news-heading">
+  <header class="section-heading section-heading--compact">
+    <p class="section-kicker">Updates</p>
+    <h2 id="news-heading">News</h2>
+  </header>
+  <div class="news-list">
+    <article><time datetime="2026-07">Jul 2026</time><p><strong>RP-OPSD</strong> and <strong>SepPrune</strong> are now available on arXiv.</p></article>
+    <article><time datetime="2026-05">May 2026</time><p><strong>APEX</strong> was submitted to EMNLP 2026.</p></article>
+    <article><time datetime="2026-04">Apr 2026</time><p>Joined <strong>ByteDance Data - Douyin</strong> as an LLM Algorithm Engineer Intern.</p></article>
+    <article><time datetime="2026-03">Mar 2026</time><p><strong>SepPrune</strong> was accepted by ICME 2026, and <strong>HAWK</strong> was accepted by CVPR 2026.</p></article>
+  </div>
+</section>
 
-I am currently an algorithm intern at **ByteDance Data - Douyin**, working on reinforcement learning and AutoResearch-style training for customer service models. I am open to academic collaborations on LLM reasoning, post-training, and efficient MLLM inference. Please feel free to contact me.
+<section class="site-section" id="experience" aria-labelledby="experience-heading">
+  <header class="section-heading">
+    <p class="section-kicker">Industry Research</p>
+    <h2 id="experience-heading">Experience</h2>
+    <p>Applied research across reliable agentic systems, reasoning-oriented post-training, and efficient multimodal inference.</p>
+  </header>
+  <div class="experience-list">
+    <article class="experience-item">
+      <div class="experience-item__logo"><img src="{{ '/images/company-icons/bytedance.svg' | relative_url }}" alt="ByteDance logo"></div>
+      <div class="experience-item__content">
+        <div class="experience-item__heading">
+          <div>
+            <h3>ByteDance <span>Data - Douyin</span></h3>
+            <p class="experience-item__role">LLM Algorithm Engineer Intern</p>
+          </div>
+          <time datetime="2026-04">Apr 2026 - Present</time>
+        </div>
+        <ul>
+          <li>Develop agentic reinforcement learning methods for reliable multi-turn customer-service models.</li>
+          <li>Design adversarial user simulation, factuality-oriented reward signals, and outcome-grounded session evaluation for open-ended dialogue.</li>
+        </ul>
+      </div>
+    </article>
 
-<div class="about-tags">
-  <span>LLM Post-training</span>
-  <span>RL for Reasoning</span>
-  <span>AutoResearch Training</span>
-  <span>Efficient MLLM Inference</span>
-  <span>Visual Token Pruning</span>
-  <span>Open to Collaboration</span>
+    <article class="experience-item">
+      <div class="experience-item__logo"><img src="{{ '/images/company-icons/alibaba.svg' | relative_url }}" alt="Alibaba logo"></div>
+      <div class="experience-item__content">
+        <div class="experience-item__heading">
+          <div>
+            <h3>Alibaba <span>Qwen Consumer</span></h3>
+            <p class="experience-item__role">LLM Algorithm Engineer Intern</p>
+          </div>
+          <time datetime="2025-09">Sep 2025 - Feb 2026</time>
+        </div>
+        <ul>
+          <li>Proposed APEX, a unified SFT-RL framework that adaptively balances off-policy guidance and on-policy GRPO exploration.</li>
+          <li>Built and deployed an education-content verifier, covering data synthesis, full-parameter fine-tuning, reward design, and FP8 inference.</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="experience-item">
+      <div class="experience-item__logo"><img src="{{ '/images/company-icons/huawei.svg' | relative_url }}" alt="Huawei logo"></div>
+      <div class="experience-item__content">
+        <div class="experience-item__heading">
+          <div>
+            <h3>Huawei <span>Noah's Ark Lab</span></h3>
+            <p class="experience-item__role">Multimodal Algorithm Engineer Intern</p>
+          </div>
+          <time datetime="2025-05">May 2025 - Sep 2025</time>
+        </div>
+        <ul>
+          <li>Designed training-free visual token pruning methods for high-resolution image and video inputs.</li>
+          <li>Developed SepPrune and contributed to HAWK, resulting in publications at ICME 2026 and CVPR 2026.</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="site-section" id="publications" aria-labelledby="publications-heading">
+  <header class="section-heading">
+    <p class="section-kicker">Selected Work</p>
+    <h2 id="publications-heading">Publications</h2>
+    <p><strong>Yuchen Wang</strong> denotes my authorship; * denotes equal contribution.</p>
+  </header>
+  <div class="publication-list">
+    <article class="publication-item">
+      <div class="publication-item__body">
+        <h3>RP-OPSD: Resolution-Privileged On-Policy Self-Distillation for Multimodal Large Language Models</h3>
+        <p class="publication-item__authors">Qihui Zhu*, <strong>Yuchen Wang*</strong>, Zijian Wen, Tao Zhang, Mengjie Zhang, et al.</p>
+        <p class="publication-item__summary">Uses the capability gap between original- and low-resolution views as privileged supervision, improving Qwen3.5-4B/9B by 4.63/4.16 points on average and accelerating 9B training by 1.78x.</p>
+        <p class="publication-item__links"><a href="https://arxiv.org/abs/2607.24447">arXiv <span aria-hidden="true">↗</span></a></p>
+      </div>
+      <div class="publication-item__venue"><strong>AAAI 2027</strong><span>Under review</span></div>
+    </article>
+
+    <article class="publication-item">
+      <div class="publication-item__body">
+        <h3>APEX: Adaptively Balancing Off-Policy Guidance and On-Policy Exploration for LLM Reasoning</h3>
+        <p class="publication-item__authors"><strong>Yuchen Wang</strong>, et al. · First author</p>
+        <p class="publication-item__summary">Adapts the balance between expert supervision and on-policy exploration using policy-data compatibility, improving Pass@1 by 7.10 points across six math benchmarks and by 15.50 points across three general reasoning benchmarks.</p>
+      </div>
+      <div class="publication-item__venue"><strong>EMNLP 2026</strong><span>Under review</span></div>
+    </article>
+
+    <article class="publication-item">
+      <div class="publication-item__body">
+        <h3>SepPrune: A Separator-based Pruning Framework for Efficient Multimodal Large Language Models</h3>
+        <p class="publication-item__authors"><strong>Yuchen Wang</strong>, Qihui Zhu, Yang Liu, Xiaoyan Sun, Siying Wu · First author</p>
+        <p class="publication-item__summary">A training-free, plug-and-play method that uses modality separators to rank visual tokens, retaining 96.3% of original performance after removing 80.2% of visual tokens.</p>
+        <p class="publication-item__links"><a href="https://arxiv.org/abs/2607.25818">arXiv <span aria-hidden="true">↗</span></a></p>
+      </div>
+      <div class="publication-item__venue"><strong>ICME 2026</strong><span>Accepted</span></div>
+    </article>
+
+    <article class="publication-item">
+      <div class="publication-item__body">
+        <h3>HAWK: Head Importance-Aware Visual Token Pruning in Multimodal Models</h3>
+        <p class="publication-item__authors">Qihui Zhu, Tao Zhang, <strong>Yuchen Wang</strong>, Zijian Wen, Mengjie Zhang, et al.</p>
+        <p class="publication-item__summary">Combines head-importance priors with text-guided attention for training-free pruning, delivering 1.34x end-to-end speedup at an 80% pruning ratio on Qwen2.5-VL-7B.</p>
+        <p class="publication-item__links"><a href="https://arxiv.org/abs/2604.07812">arXiv <span aria-hidden="true">↗</span></a><a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Zhu_HAWK_Head_Importance-Aware_Visual_Token_Pruning_in_Multimodal_Models_CVPR_2026_paper.pdf">CVF paper <span aria-hidden="true">↗</span></a><a href="https://github.com/peppery77/HAWK">Code <span aria-hidden="true">↗</span></a></p>
+      </div>
+      <div class="publication-item__venue"><strong>CVPR 2026</strong><span>Accepted</span></div>
+    </article>
+  </div>
+</section>
+
+<div class="profile-details-grid">
+  <section class="site-section detail-panel" id="education" aria-labelledby="education-heading">
+    <header class="section-heading section-heading--compact">
+      <p class="section-kicker">Background</p>
+      <h2 id="education-heading">Education</h2>
+    </header>
+    <div class="education-list">
+      <article>
+        <time datetime="2024-09">2024 - 2027</time>
+        <h3>University of Science and Technology of China</h3>
+        <p>M.S. in Computer Technology<br>Advisor: Prof. Xiaoyan Sun</p>
+      </article>
+      <article>
+        <time datetime="2020-09">2020 - 2024</time>
+        <h3>North China Electric Power University</h3>
+        <p>B.Eng. in New Energy Science and Engineering</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="site-section detail-panel" id="honors" aria-labelledby="honors-heading">
+    <header class="section-heading section-heading--compact">
+      <p class="section-kicker">Recognition</p>
+      <h2 id="honors-heading">Honors</h2>
+    </header>
+    <ul class="honors-list">
+      <li><span>Perseverance & Innovation Scholarship, USTC</span><time>2025 - 2026</time></li>
+      <li><span>First-Class Graduate Scholarship, USTC</span><time>2025</time></li>
+      <li><span>Second-Class Graduate Scholarship, USTC</span><time>2024 - 2025</time></li>
+      <li><span>Second Prize, Beijing Division of CUMCM</span><time>2022</time></li>
+    </ul>
+  </section>
 </div>
 
-Contact 📫: `wangyuc@mail.ustc.edu.cn`
-GitHub 🐙: [https://github.com/sansanyuchen](https://github.com/sansanyuchen)
+<section class="site-section toolkit" id="skills" aria-labelledby="skills-heading">
+  <header class="section-heading section-heading--compact">
+    <p class="section-kicker">Methods & Engineering</p>
+    <h2 id="skills-heading">Toolkit</h2>
+  </header>
+  <dl class="toolkit-list">
+    <div><dt>Post-training</dt><dd>SFT, RLHF, PPO, GRPO, DPO, on-policy distillation, chain-of-thought reasoning</dd></div>
+    <div><dt>Data & evaluation</dt><dd>Data flywheels, high-confidence synthesis, verifier training, benchmark construction</dd></div>
+    <div><dt>Engineering</dt><dd>Python, PyTorch, Transformers, Ray, verl, ms-swift, vLLM</dd></div>
+  </dl>
+</section>
 
-<span class='anchor' id='news'></span>
-
-# News 📰
-- *2026.05* **APEX** was submitted to **EMNLP 2026**.
-- *2026.04* Joined **ByteDance Data - Douyin** as an Application Algorithm Intern.
-- *2026.03* **SepPrune** was accepted by **ICME 2026** (First Author).
-- *2026.03* **HAWK** was accepted by **CVPR 2026**.
-
-<span class='anchor' id='education'></span>
-
-# Education 🎓
-- *2024.09 - 2027.06 (Now)* Master, Computer Technology, University of Science and Technology of China  
-  Advisor: Prof. Xiaoyan Sun
-- *2020.09 - 2024.06* Bachelor, New Energy Science and Engineering, North China Electric Power University
-
-<span class='anchor' id='internships'></span>
-
-# Internship Experience 💼
-<div class="internship-list">
-  <div class="internship-card">
-    <img src="/images/company-icons/bytedance.svg" alt="ByteDance logo" class="internship-logo">
-    <div class="internship-body">
-      <div class="internship-head">
-        <div>
-          <div class="internship-company">ByteDance Data - Douyin</div>
-          <div class="internship-role">Application Algorithm Intern · LLM Post-training</div>
-        </div>
-        <div class="internship-time">2026.04 - Present</div>
-      </div>
-      <div class="internship-tags"><span>Customer Service Models</span><span>Seed/Qwen LLMs</span><span>RL Post-training</span></div>
-      <p>I work on post-training algorithms for customer service foundation models across ByteDance apps. My work combines Seed/Qwen-series LLMs with customer-service dialogue data, business knowledge bases, and multi-turn interaction logs to build reinforcement learning pipelines for improving task-oriented response quality and model behavior.</p>
-    </div>
+<section class="contact-strip" aria-labelledby="contact-heading">
+  <div>
+    <p class="section-kicker">Contact</p>
+    <h2 id="contact-heading">Interested in related research?</h2>
+    <p>I am happy to discuss LLM post-training, reasoning, and efficient multimodal systems.</p>
   </div>
-
-  <div class="internship-card">
-    <img src="/images/company-icons/alibaba.svg" alt="Alibaba logo" class="internship-logo">
-    <div class="internship-body">
-      <div class="internship-head">
-        <div>
-          <div class="internship-company">Alibaba Qwen (C-end)</div>
-          <div class="internship-role">Algorithm Intern · LLM Post-training</div>
-        </div>
-        <div class="internship-time">2025.09 - 2026.02</div>
-      </div>
-      <div class="internship-tags"><span>SFT + GRPO</span><span>PPL Weighting</span><span>Verifier Training</span></div>
-      <p>I explored a unified <code>SFT + GRPO</code> framework for reasoning-oriented post-training and proposed a PPL-based adaptive loss weighting method to balance supervision and exploration on difficult samples. The approach outperformed baselines on AIME24/25 and out-of-domain reasoning benchmarks. I also built an end-to-end verification model based on <code>Qwen3-235B-A22B</code>, using data flywheel signals, majority voting, reward design, and online curriculum learning to train from weakly labeled data; the system reached <strong>95.7% precision / 63.2% recall</strong> in offline evaluation and supported Qwen/Quark education scenarios.</p>
-    </div>
-  </div>
-
-  <div class="internship-card">
-    <img src="/images/company-icons/huawei.svg" alt="Huawei logo" class="internship-logo">
-    <div class="internship-body">
-      <div class="internship-head">
-        <div>
-          <div class="internship-company">Huawei Noah's Ark Lab</div>
-          <div class="internship-role">Algorithm Intern · MLLM</div>
-        </div>
-        <div class="internship-time">2025.05 - 2025.09</div>
-      </div>
-      <div class="internship-tags"><span>Efficient MLLM</span><span>Token Pruning</span><span>Training-free Inference</span></div>
-      <p>I focused on efficient multimodal inference for high-resolution MLLM inputs, designing training-free visual token pruning methods to reduce latency and memory cost without modifying model architectures. I developed two plug-and-play pruning frameworks around separator-token anchoring and head-importance-aware scoring; on Qwen2.5-VL-style models, the methods preserved strong performance under aggressive token reduction and led to <strong>ICME 2026</strong> and <strong>CVPR 2026</strong> publications.</p>
-    </div>
-  </div>
-</div>
-
-<span class='anchor' id='publications'></span>
-
-# Publications 📚
-<div class="pub-list">
-  <div class="pub-item">
-    <div class="pub-title">APEX: Adaptively Balancing Off-Policy Guidance and On-Policy Exploration for LLM Reasoning</div>
-    <div class="pub-authors"><strong>Yuchen Wang</strong>, et al. <span class="pub-role">First author</span></div>
-    <div class="pub-affiliation">University of Science and Technology of China.</div>
-    <div class="pub-meta"><span class="pub-badge pub-badge--submitted">EMNLP 2026</span><span class="pub-dot">Submitted</span></div>
-  </div>
-
-  <div class="pub-item">
-    <div class="pub-title">SepPrune: A Separator-based Pruning Framework for Efficient Multimodal Large Language Models</div>
-    <div class="pub-authors"><strong>Yuchen Wang</strong>, Qihui Zhu, Yang Liu, Xiaoyan Sun, Siying Wu. <span class="pub-role">First author</span></div>
-    <div class="pub-affiliation">University of Science and Technology of China; Hefei Comprehensive National Science Center; ChangXin Memory Technologies.</div>
-    <div class="pub-meta"><span class="pub-badge">ICME 2026</span><span class="pub-dot">Accepted</span></div>
-  </div>
-
-  <div class="pub-item">
-    <div class="pub-title">HAWK: Head Importance-Aware Visual Token Pruning in Multimodal Models</div>
-    <div class="pub-authors">Qihui Zhu, Tao Zhang, <strong>Yuchen Wang</strong>, Shuangwu Chen, Xiaobin Tan, Jian Yang, Yang Liu, Yinfei Pan.</div>
-    <div class="pub-affiliation">University of Science and Technology of China; ChangXin Memory Technologies, Inc.; Huawei Noah's Ark Lab.</div>
-    <div class="pub-meta"><span class="pub-badge">CVPR 2026</span><span class="pub-dot">Accepted</span><a href="https://arxiv.org/abs/2604.07812">arXiv</a></div>
-  </div>
-</div>
-
-<span class='anchor' id='skills'></span>
-
-# Skills 🧠
-- Core: LLM Post-training, RLHF, PPO, GRPO, DPO, CoT Reasoning, Data Synthesis
-- Frameworks: PyTorch, Verl, Swift, vLLM, Transformers
-
-<span class='anchor' id='interests'></span>
-
-# Research Interests 🔍
-- LLM Post-training
-- RLHF / PPO / GRPO / DPO
-- CoT Reasoning for complex tasks
-- Efficient Inference for MLLMs (training-free visual token pruning)
-
-<span class='anchor' id='honors'></span>
-
-# Honors and Awards 🏆
-- *2025* First-Class Academic Scholarship, USTC
-- *2022* Second Prize, Beijing Division of China Undergraduate Mathematical Contest in Modeling (CUMCM)
+  <a class="profile-button profile-button--light" href="mailto:wangyuc@mail.ustc.edu.cn">wangyuc@mail.ustc.edu.cn</a>
+</section>
