@@ -6,12 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Yuchen Wang"
-description              : "M.S. candidate at USTC working on LLM post-training, reinforcement learning, on-policy distillation, and efficient multimodal inference."
-url                      : "https://sansanyuchen.github.io"
-baseurl                  : ""
+title                    : "Wang Yuchen"
+description              : "M.S. Student at University of Science and Technology of China (USTC) | LLM Post-training and Efficient MLLM Inference"
 repository               : "sansanyuchen/sansanyuchen.github.io"
-og_image                 : "/images/android-chrome-512x512.png"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -24,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Yuchen Wang"
+  name             : "Wang Yuchen"
   avatar           : "images/android-chrome-512x512.png"
   bio              :
   location         : "Hefei, China"
@@ -128,7 +125,7 @@ defaults:
       type: pages
     values:
       layout: default
-      author_profile: false
+      author_profile: true
 
 
 # Sass/SCSS
