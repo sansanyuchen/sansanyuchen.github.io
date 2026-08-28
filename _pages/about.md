@@ -105,31 +105,51 @@ GitHub 🐙: [https://github.com/sansanyuchen](https://github.com/sansanyuchen)
 # Publications 📚
 <div class="pub-list">
   <div class="pub-item">
-    <div class="pub-title">APEX: Adaptively Balancing Off-Policy Guidance and On-Policy Exploration for LLM Reasoning</div>
-    <div class="pub-authors"><strong>Yuchen Wang</strong>, et al. <span class="pub-role">First author</span></div>
-    <div class="pub-affiliation">University of Science and Technology of China.</div>
-    <div class="pub-meta"><span class="pub-badge">EMNLP 2026</span><span class="pub-dot">Accepted</span></div>
+    <div class="pub-teaser">
+      <img src="/images/publications/apex-overview.png" alt="Overview of the APEX adaptive off-policy guidance and on-policy exploration framework" width="1143" height="633" loading="lazy" decoding="async">
+    </div>
+    <div class="pub-body">
+      <div class="pub-title">APEX: Adaptively Balancing Off-Policy Guidance and On-Policy Exploration for LLM Reasoning</div>
+      <div class="pub-authors"><strong>Yuchen Wang</strong>, et al. <span class="pub-role">First author</span></div>
+      <div class="pub-affiliation">University of Science and Technology of China.</div>
+      <div class="pub-meta"><span class="pub-badge">EMNLP 2026</span><span class="pub-dot">Accepted</span></div>
+    </div>
   </div>
 
   <div class="pub-item">
-    <div class="pub-title">SepPrune: A Separator-based Pruning Framework for Efficient Multimodal Large Language Models</div>
-    <div class="pub-authors"><strong>Yuchen Wang</strong>, Qihui Zhu, Yang Liu, Xiaoyan Sun, Siying Wu. <span class="pub-role">First author</span></div>
-    <div class="pub-affiliation">University of Science and Technology of China; Hefei Comprehensive National Science Center; ChangXin Memory Technologies.</div>
-    <div class="pub-meta"><span class="pub-badge">ICME 2026</span><span class="pub-dot">Accepted</span><a href="https://arxiv.org/abs/2607.25818">arXiv</a></div>
+    <a class="pub-teaser" href="https://arxiv.org/abs/2607.25818" aria-label="Open the SepPrune paper on arXiv">
+      <img src="/images/publications/sepprune-overview.png" alt="Overview of separator-guided visual token pruning in SepPrune" width="2083" height="1100" loading="lazy" decoding="async">
+    </a>
+    <div class="pub-body">
+      <div class="pub-title">SepPrune: A Separator-based Pruning Framework for Efficient Multimodal Large Language Models</div>
+      <div class="pub-authors"><strong>Yuchen Wang</strong>, Qihui Zhu, Yang Liu, Xiaoyan Sun, Siying Wu. <span class="pub-role">First author</span></div>
+      <div class="pub-affiliation">University of Science and Technology of China; Hefei Comprehensive National Science Center; ChangXin Memory Technologies.</div>
+      <div class="pub-meta"><span class="pub-badge">ICME 2026</span><span class="pub-dot">Accepted</span><a href="https://arxiv.org/abs/2607.25818">arXiv</a></div>
+    </div>
   </div>
 
   <div class="pub-item">
-    <div class="pub-title">RP-OPSD: Resolution-Privileged On-Policy Self-Distillation for Multimodal Large Language Models</div>
-    <div class="pub-authors">Qihui Zhu, <strong>Yuchen Wang</strong>, Zijian Wen, Tao Zhang, Mengjie Zhang, Yang Liu, Shuangwu Chen, Siying Wu, Jian Yang, Xiaofeng Jiang. <span class="pub-role">Co-first author</span></div>
-    <div class="pub-affiliation">University of Science and Technology of China; ChangXin Memory Technologies, Inc.</div>
-    <div class="pub-meta"><span class="pub-badge pub-badge--submitted">AAAI 2027</span><span class="pub-dot">Under review</span><a href="https://arxiv.org/abs/2607.24447">arXiv</a><a href="https://github.com/sansanyuchen/RP-OPSD">Code</a></div>
+    <a class="pub-teaser" href="https://arxiv.org/abs/2607.24447" aria-label="Open the RP-OPSD paper on arXiv">
+      <img src="/images/publications/rp-opsd-overview.png" alt="Overview of resolution-privileged on-policy self-distillation in RP-OPSD" width="3173" height="1380" loading="lazy" decoding="async">
+    </a>
+    <div class="pub-body">
+      <div class="pub-title">RP-OPSD: Resolution-Privileged On-Policy Self-Distillation for Multimodal Large Language Models</div>
+      <div class="pub-authors">Qihui Zhu, <strong>Yuchen Wang</strong>, Zijian Wen, Tao Zhang, Mengjie Zhang, Yang Liu, Shuangwu Chen, Siying Wu, Jian Yang, Xiaofeng Jiang. <span class="pub-role">Co-first author</span></div>
+      <div class="pub-affiliation">University of Science and Technology of China; ChangXin Memory Technologies, Inc.</div>
+      <div class="pub-meta"><span class="pub-badge pub-badge--submitted">AAAI 2027</span><span class="pub-dot">Under review</span><a href="https://arxiv.org/abs/2607.24447">arXiv</a><a href="https://github.com/sansanyuchen/RP-OPSD">Code</a></div>
+    </div>
   </div>
 
   <div class="pub-item">
-    <div class="pub-title">HAWK: Head Importance-Aware Visual Token Pruning in Multimodal Models</div>
-    <div class="pub-authors">Qihui Zhu, Tao Zhang, <strong>Yuchen Wang</strong>, Shuangwu Chen, Xiaobin Tan, Jian Yang, Yang Liu, Yinfei Pan.</div>
-    <div class="pub-affiliation">University of Science and Technology of China; ChangXin Memory Technologies, Inc.; Huawei Noah's Ark Lab.</div>
-    <div class="pub-meta"><span class="pub-badge">CVPR 2026</span><span class="pub-dot">Accepted</span><a href="https://arxiv.org/abs/2604.07812">arXiv</a></div>
+    <a class="pub-teaser" href="https://arxiv.org/abs/2604.07812" aria-label="Open the HAWK paper on arXiv">
+      <img src="/images/publications/hawk-overview.png" alt="Overview of head importance-aware visual token pruning in HAWK" width="1290" height="630" loading="lazy" decoding="async">
+    </a>
+    <div class="pub-body">
+      <div class="pub-title">HAWK: Head Importance-Aware Visual Token Pruning in Multimodal Models</div>
+      <div class="pub-authors">Qihui Zhu, Tao Zhang, <strong>Yuchen Wang</strong>, Shuangwu Chen, Xiaobin Tan, Jian Yang, Yang Liu, Yinfei Pan.</div>
+      <div class="pub-affiliation">University of Science and Technology of China; ChangXin Memory Technologies, Inc.; Huawei Noah's Ark Lab.</div>
+      <div class="pub-meta"><span class="pub-badge">CVPR 2026</span><span class="pub-dot">Accepted</span><a href="https://arxiv.org/abs/2604.07812">arXiv</a></div>
+    </div>
   </div>
 </div>
 
