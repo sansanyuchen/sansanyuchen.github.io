@@ -38,6 +38,7 @@ GitHub 🐙: [https://github.com/sansanyuchen](https://github.com/sansanyuchen)
 
 # News 📰
 - *2026.08* **APEX** was accepted by **EMNLP 2026** (First Author).
+- *2026.07* **RP-OPSD** was released on arXiv and submitted to **AAAI 2027** (Co-first Author).
 - *2026.04* Joined **ByteDance Data - Douyin** as an Application Algorithm Intern.
 - *2026.03* **SepPrune** was accepted by **ICME 2026** (First Author).
 - *2026.03* **HAWK** was accepted by **CVPR 2026**.
@@ -115,6 +116,13 @@ GitHub 🐙: [https://github.com/sansanyuchen](https://github.com/sansanyuchen)
     <div class="pub-authors"><strong>Yuchen Wang</strong>, Qihui Zhu, Yang Liu, Xiaoyan Sun, Siying Wu. <span class="pub-role">First author</span></div>
     <div class="pub-affiliation">University of Science and Technology of China; Hefei Comprehensive National Science Center; ChangXin Memory Technologies.</div>
     <div class="pub-meta"><span class="pub-badge">ICME 2026</span><span class="pub-dot">Accepted</span></div>
+  </div>
+
+  <div class="pub-item">
+    <div class="pub-title">RP-OPSD: Resolution-Privileged On-Policy Self-Distillation for Multimodal Large Language Models</div>
+    <div class="pub-authors">Qihui Zhu, <strong>Yuchen Wang</strong>, Zijian Wen, Tao Zhang, Mengjie Zhang, Yang Liu, Shuangwu Chen, Siying Wu, Jian Yang, Xiaofeng Jiang. <span class="pub-role">Co-first author</span></div>
+    <div class="pub-affiliation">University of Science and Technology of China; ChangXin Memory Technologies, Inc.</div>
+    <div class="pub-meta"><span class="pub-badge pub-badge--submitted">AAAI 2027</span><span class="pub-dot">Under review</span><a href="https://arxiv.org/abs/2607.24447">arXiv</a><a href="https://github.com/sansanyuchen/RP-OPSD">Code</a></div>
   </div>
 
   <div class="pub-item">
