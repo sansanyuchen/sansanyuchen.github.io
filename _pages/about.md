@@ -20,14 +20,14 @@ redirect_from:
 # About Me 🚀
 I am an M.S. student in Computer Technology at the University of Science and Technology of China (USTC), from 2024.09 to 2027.06. My research focuses on **LLM post-training, reinforcement learning for reasoning, and efficient multimodal inference**.
 
-I am currently an algorithm intern at **ByteDance Data - Douyin**, working on reinforcement learning and AutoResearch-style training for customer service models. I am open to academic collaborations on LLM reasoning, post-training, and efficient MLLM inference. Please feel free to contact me.
+I am currently a **Research Intern at Unipat**, focusing on **visual coding, data synthesis, and benchmark development and evaluation**. I am open to academic collaborations in these areas, as well as LLM post-training and efficient multimodal inference. Please feel free to contact me.
 
 <div class="about-tags">
+  <span>Visual Coding</span>
+  <span>Data Synthesis</span>
+  <span>Benchmarking</span>
   <span>LLM Post-training</span>
-  <span>RL for Reasoning</span>
-  <span>AutoResearch Training</span>
   <span>Efficient MLLM Inference</span>
-  <span>Visual Token Pruning</span>
   <span>Open to Collaboration</span>
 </div>
 
@@ -79,10 +79,10 @@ GitHub 🐙: [https://github.com/sansanyuchen](https://github.com/sansanyuchen)
           <div class="internship-company">ByteDance Data - Douyin</div>
           <div class="internship-role">Application Algorithm Intern · LLM Post-training</div>
         </div>
-        <div class="internship-time">2026.04 - Present</div>
+        <div class="internship-time">2026.04 - 2026.10</div>
       </div>
       <div class="internship-tags"><span>Customer Service Models</span><span>Seed/Qwen LLMs</span><span>RL Post-training</span></div>
-      <p>I work on post-training algorithms for customer service foundation models across ByteDance apps. My work combines Seed/Qwen-series LLMs with customer-service dialogue data, business knowledge bases, and multi-turn interaction logs to build reinforcement learning pipelines for improving task-oriented response quality and model behavior.</p>
+      <p>I worked on post-training algorithms for customer service foundation models across ByteDance apps. My work combined Seed/Qwen-series LLMs with customer-service dialogue data, business knowledge bases, and multi-turn interaction logs to build reinforcement learning pipelines for improving task-oriented response quality and model behavior.</p>
     </div>
   </div>
 
