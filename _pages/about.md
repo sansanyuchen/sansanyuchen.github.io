@@ -62,8 +62,9 @@ GitHub 🐙: [https://github.com/sansanyuchen](https://github.com/sansanyuchen)
       <div class="internship-head">
         <div>
           <div class="internship-company">Unipat</div>
-          <div class="internship-role">Intern · Visual Coding</div>
+          <div class="internship-role">Research Intern · Visual Coding</div>
         </div>
+        <div class="internship-time">2026.10 - Present</div>
       </div>
       <div class="internship-tags"><span>Visual Coding</span><span>Data Synthesis</span><span>Benchmarking</span></div>
       <p>My work at Unipat focuses on visual coding, data synthesis, and benchmark development and evaluation.</p>
