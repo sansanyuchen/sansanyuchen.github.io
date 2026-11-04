@@ -47,7 +47,7 @@ GitHub 🐙: [https://github.com/sansanyuchen](https://github.com/sansanyuchen)
 
 # Education 🎓
 - *2024.09 - 2027.06 (Now)* Master, Computer Technology, University of Science and Technology of China  
-  Advisor: Prof. Xiaoyan Sun
+  Advisor: Prof. Xiaoyan Sun · [Vision Intelligence Laboratory (ViLab)](https://vilab.team/)
 - *2020.09 - 2024.06* Bachelor, New Energy Science and Engineering, North China Electric Power University
 
 <span class='anchor' id='internships'></span>
