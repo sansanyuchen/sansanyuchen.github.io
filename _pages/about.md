@@ -20,7 +20,7 @@ redirect_from:
 # About Me 🚀
 I am an M.S. student in Computer Technology at the University of Science and Technology of China (USTC), from 2024.09 to 2027.06. My research focuses on **LLM post-training, reinforcement learning for reasoning, and efficient multimodal inference**.
 
-I am currently a **Research Intern at Unipat**, focusing on **visual coding, data synthesis, and benchmark development and evaluation**. I am open to academic collaborations in these areas, as well as LLM post-training and efficient multimodal inference. Please feel free to contact me.
+I am currently a **Research Intern at [Unipat](https://unipat.ai/)**, focusing on **visual coding, data synthesis, and benchmark development and evaluation**. I am open to academic collaborations in these areas, as well as LLM post-training and efficient multimodal inference. Please feel free to contact me.
 
 <div class="about-tags">
   <span>Visual Coding</span>
@@ -61,7 +61,7 @@ GitHub 🐙: [https://github.com/sansanyuchen](https://github.com/sansanyuchen)
     <div class="internship-body">
       <div class="internship-head">
         <div>
-          <div class="internship-company">Unipat</div>
+          <div class="internship-company"><a href="https://unipat.ai/">Unipat</a></div>
           <div class="internship-role">Research Intern · Visual Coding</div>
         </div>
         <div class="internship-time">2026.10 - Present</div>
