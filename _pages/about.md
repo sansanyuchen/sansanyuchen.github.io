@@ -55,6 +55,22 @@ GitHub 🐙: [https://github.com/sansanyuchen](https://github.com/sansanyuchen)
 # Internship Experience 💼
 <div class="internship-list">
   <div class="internship-card">
+    <svg class="internship-logo" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+      <text x="16" y="23" text-anchor="middle" fill="#1f5ea8" font-family="Arial, sans-serif" font-size="24" font-weight="700">U</text>
+    </svg>
+    <div class="internship-body">
+      <div class="internship-head">
+        <div>
+          <div class="internship-company">Unipat</div>
+          <div class="internship-role">Intern · Visual Coding</div>
+        </div>
+      </div>
+      <div class="internship-tags"><span>Visual Coding</span><span>Data Synthesis</span><span>Benchmarking</span></div>
+      <p>My work at Unipat focuses on visual coding, data synthesis, and benchmark development and evaluation.</p>
+    </div>
+  </div>
+
+  <div class="internship-card">
     <img src="/images/company-icons/bytedance.svg" alt="ByteDance logo" class="internship-logo">
     <div class="internship-body">
       <div class="internship-head">
