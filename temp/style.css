@@ -1,11 +1,4 @@
 @font-face {
-  font-family: 'Source Sans 3';
-  src: url('fonts/source-sans-3-latin.woff2') format('woff2');
-  font-style: normal;
-  font-weight: 400 800;
-  font-display: swap;
-}
-@font-face {
   font-family: 'Lora';
   src: url('fonts/lora-latin.woff2') format('woff2');
   font-style: normal;
@@ -34,13 +27,13 @@
   --muted: #6c6c75;
   --purple: #7540b9;
   --line: #eae7e5;
-  --sans: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --sans: 'Trebuchet MS', Helvetica, sans-serif;
   --serif: 'Lora', Georgia, serif;
   --mono: 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace;
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 110px; }
-body { margin: 0; color: var(--body); background: var(--paper); font: 16px/1.65 var(--sans); letter-spacing: normal; -webkit-font-smoothing: antialiased; }
+body { margin: 0; color: var(--body); background: var(--paper); font: 15px/1.5 var(--sans); letter-spacing: normal; -webkit-font-smoothing: antialiased; }
 a { color: var(--purple); text-decoration: none; text-underline-offset: 4px; }
 a:hover { text-decoration: underline; }
 a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--purple); outline-offset: 5px; }
@@ -102,7 +95,7 @@ button { font: inherit; }
 .pub-teaser { border: 1px solid #e5e1e6; background: #fff; border-radius: 3px; padding: 5px; width: 150px; height: 103px; display: flex; align-items: center; justify-content: center; cursor: zoom-in; margin-top: 3px; }
 .pub-teaser:hover { border-color: #b29bcb; }
 .pub-teaser img { width: 100%; height: 100%; object-fit: contain; }
-.pub-title { color: var(--ink); font-size: 17px; font-weight: 600; line-height: 1.4; }
+.pub-title { color: var(--ink); font-size: 15.3px; font-weight: 800; line-height: 1.35; }
 .pub-title a { color: inherit; }
 .pub-title a:hover { color: var(--purple); }
 .pub-authors { font-size: 14px; line-height: 1.55; margin-top: 6px; }
@@ -122,7 +115,7 @@ button { font: inherit; }
 .internship-company a:hover { color: var(--purple); }
 .internship-role { font-size: 14px; font-weight: 600; line-height: 1.5; color: var(--purple); margin-top: 3px; }
 .internship-time { font: 11px/1.7 var(--mono); color: var(--muted); white-space: nowrap; }
-.internship-body p { max-width: 78ch; font-size: 15px; line-height: 1.6; margin-top: 8px; }
+.internship-body p { max-width: 78ch; font-size: 14.25px; line-height: 1.5; margin-top: 8px; }
 .internship-body strong { font-weight: 600; }
 code { font-family: var(--mono); font-size: .94em; }
 .education-row { display: grid; grid-template-columns: 188px minmax(0,1fr); gap: 24px; }
@@ -159,7 +152,6 @@ footer a { color: var(--muted); }
   .about-section { grid-template-columns: 180px minmax(0,1fr); gap: 38px; }
   .portrait { width: 180px; height: 180px; }
   .bio h1 { font-size: 28px; }
-  .about-copy { font-size: 16px; }
 }
 @media (max-width: 700px) {
   html { scroll-padding-top: 130px; }
@@ -173,7 +165,6 @@ footer a { color: var(--muted); }
   .contact-links { flex-direction: column; align-items: flex-start; gap: 8px; margin: 0; font-size: 10px; }
   .contact-links span { display: none; }
   .bio h1 { font-size: 24px; letter-spacing: -.6px; margin-bottom: 18px; }
-  .about-copy { font-size: 15.5px; line-height: 1.65; }
   .research-focus ul { font-size: 13px; gap: 5px 12px; justify-content: flex-start; }
   .news-section, .content-section { padding: 31px 0 35px; }
   .section-heading { margin-bottom: 21px; }
@@ -183,7 +174,6 @@ footer a { color: var(--muted); }
   .pub-list { gap: 30px; }
   .pub-item { grid-template-columns: 87px minmax(0,1fr); gap: 14px; }
   .pub-teaser { width: 87px; height: 70px; padding: 3px; }
-  .pub-title { font-size: 15.5px; }
   .pub-authors { font-size: 13.5px; margin-top: 7px; }
   .pub-role, .pub-affiliation { font-size: 12px; }
   .pub-meta { gap: 4px 10px; }
@@ -194,7 +184,6 @@ footer a { color: var(--muted); }
   .internship-company { font-size: 16px; }
   .internship-role { font-size: 14px; }
   .internship-time { margin-top: 4px; font-size: 10px; }
-  .internship-body p { font-size: 14.5px; }
   .education-row { grid-template-columns: minmax(0,1fr); gap: 6px; }
   .education-date br { display: none; }
   .education-date span { margin-left: 8px; }
