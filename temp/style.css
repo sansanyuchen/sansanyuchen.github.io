@@ -62,7 +62,6 @@ button { font: inherit; }
 .contact-links span { color: #c4bed0; }
 .bio { color: #494e52; -webkit-font-smoothing: auto; }
 .bio h1 { font: 700 21px/1.2 var(--sans); margin-bottom: .5em; }
-.bio h1 .personal-name { color: inherit; font: inherit; letter-spacing: inherit; }
 .personal-name {
   color: #24232b;
   font-family: var(--serif);
@@ -138,8 +137,8 @@ code { font-family: var(--mono); font-size: .94em; }
 .additional li::before { content: '·'; color: var(--purple); margin-right: 8px; }
 .additional .subtle { color: var(--muted); font-size: 13px; margin-top: 4px; }
 .honors { grid-column: 1 / -1; }
-.honors p { display: flex; gap: 18px; margin-top: 4px; }
-.honors span { font: 11px/2 var(--mono); color: var(--muted); }
+.honors li + li { margin-top: 4px; }
+.honors span { font-size: 13px; color: var(--muted); }
 footer { display: flex; justify-content: space-between; align-items: center; gap: 20px; border-top: 1px solid var(--line); padding: 26px 0 34px; color: var(--muted); font-size: 10px; letter-spacing: .5px; }
 footer .personal-name { font-size: 13px; }
 footer a { color: var(--muted); }
