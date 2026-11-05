@@ -55,7 +55,6 @@ button { font: inherit; }
 .header-inner { min-height: 84px; display: flex; justify-content: space-between; align-items: center; gap: 30px; }
 .site-name { display: flex; flex-direction: column; flex-shrink: 0; color: var(--ink); font-size: 18px; font-weight: 700; line-height: 28px; text-transform: uppercase; letter-spacing: 1.8px; }
 .site-name:hover { text-decoration: none; }
-.site-subtitle { color: var(--purple); font: 600 11px/1.5 var(--mono); letter-spacing: 1.1px; margin-top: 4px; }
 .navigation { display: flex; gap: 25px; font-size: 13px; line-height: 1.5; font-weight: 700; letter-spacing: 1.3px; }
 .navigation a { color: var(--muted); padding: 3px 0; border-bottom: 1px solid transparent; }
 .navigation a:hover, .navigation a[aria-current] { color: var(--ink); border-bottom-color: var(--ink); text-decoration: none; }
@@ -167,7 +166,6 @@ footer a { color: var(--muted); }
   .header-inner, .page-shell { padding-left: 23px; padding-right: 23px; }
   .header-inner { align-items: flex-start; flex-direction: column; gap: 14px; padding-top: 18px; padding-bottom: 12px; }
   .site-name { font-size: 16px; line-height: 24px; letter-spacing: 1.6px; }
-  .site-subtitle { font-size: 10px; }
   .navigation { width: 100%; justify-content: space-between; gap: 6px; font-size: 11.5px; letter-spacing: .3px; }
   .about-section { display: block; padding: 32px 0 35px; }
   .profile { display: flex; align-items: center; gap: 26px; padding: 0; margin-bottom: 25px; }
