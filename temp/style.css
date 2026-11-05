@@ -67,7 +67,19 @@ button { font: inherit; }
 .contact-links a:hover { color: var(--purple); }
 .contact-links span { color: #c4bed0; }
 .bio h1 { color: #24232b; font: 400 28px/1.25 var(--serif); letter-spacing: -.7px; margin-bottom: 18px; }
-.bio h1 em { font-weight: 500; text-decoration: underline; text-decoration-color: #e3d7ef; text-decoration-thickness: 3px; text-underline-offset: 7px; }
+.personal-name {
+  color: #24232b;
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: -.025em;
+  text-transform: none;
+  text-decoration: underline;
+  text-decoration-color: #e3d7ef;
+  text-decoration-thickness: .1em;
+  text-underline-offset: .25em;
+}
+.site-name .personal-name { font-size: 22px; }
 .about-copy p + p { margin-top: 17px; }
 .research-focus { border-top: 1px solid var(--line); padding-top: 13px; margin-top: 20px; }
 .research-focus h2 { font-size: 11px; line-height: 1.5; text-transform: uppercase; letter-spacing: 1.1px; color: var(--purple); font-weight: 800; }
@@ -95,7 +107,6 @@ button { font: inherit; }
 .pub-title a { color: inherit; }
 .pub-title a:hover { color: var(--purple); }
 .pub-authors { font-size: 13px; line-height: 1.5; margin-top: 6px; }
-.pub-authors strong { color: var(--ink); font-weight: 600; text-decoration: underline; text-underline-offset: 3px; text-decoration-color: #b8b3bd; }
 .pub-role { font-size: 11px; color: var(--muted); white-space: nowrap; }
 .pub-role::before { content: ' · '; }
 .pub-affiliation { color: var(--muted); font-size: 12px; line-height: 1.5; margin-top: 3px; }
@@ -134,7 +145,7 @@ code { font-family: var(--mono); font-size: .94em; }
 .honors p { display: flex; gap: 18px; margin-top: 4px; }
 .honors span { font: 11px/2 var(--mono); color: var(--muted); }
 footer { display: flex; justify-content: space-between; align-items: center; gap: 20px; border-top: 1px solid var(--line); padding: 26px 0 34px; color: var(--muted); font-size: 10px; letter-spacing: .5px; }
-footer > span { text-transform: uppercase; }
+footer .personal-name { font-size: 13px; }
 footer a { color: var(--muted); }
 .figure-dialog { width: min(1120px, calc(100vw - 40px)); max-height: calc(100dvh - 40px); border: 1px solid var(--line); border-radius: 4px; padding: 20px; background: var(--paper); color: var(--ink); }
 .figure-dialog::backdrop { background: rgba(25,20,32,.68); }
