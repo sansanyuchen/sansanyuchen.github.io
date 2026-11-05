@@ -7,34 +7,42 @@
   <meta name="robots" content="noindex, nofollow">
   <title>Wang Yuchen — Research</title>
   <link rel="icon" href="/images/android-chrome-512x512.png">
-  <link rel="stylesheet" href="style.css">
-  <script src="app.js" defer></script>
+  <link rel="preload" href="fonts/plus-jakarta-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css?v=20261105">
+  <script src="app.js?v=20261105" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#about">Skip to content</a>
   <header class="site-header">
+    <div class="header-inner">
+    <a class="site-name" href="#about"><span>Wang Yuchen</span><span class="site-subtitle">M.S. Student · USTC</span></a>
     <nav class="navigation" aria-label="Main navigation">
-      <a href="#about">About</a>
+      <a href="#about" aria-current="location">About</a>
       <a href="#news">News</a>
       <a href="#publications">Publications</a>
       <a href="#internships">Experience</a>
       <a href="#education">Education</a>
     </nav>
+    </div>
   </header>
   <div class="page-shell">
     <main>
       <section class="about-section" id="about" aria-labelledby="about-title">
-        <div class="bio">
-          <h1 id="about-title">Wang Yuchen</h1>
-          <div class="about-copy"><p>I am an M.S. student in Computer Technology at the University of Science and Technology of China (USTC), expecting to graduate in June 2027. My research focuses on LLM post-training, reinforcement learning for reasoning, and efficient multimodal inference.</p>
-<p>I am currently a Research Intern at <a href="https://unipat.ai/">Unipat</a>, focusing on visual coding, data synthesis, and benchmark development and evaluation. I am open to academic collaborations in these areas, as well as LLM post-training and efficient multimodal inference. Please feel free to contact me.</p></div>
-          <p class="contact-links"><a href="mailto:wangyuc@mail.ustc.edu.cn">Email</a><span>/</span><a href="https://github.com/sansanyuchen">GitHub</a><span>/</span><a href="https://vilab.team/">ViLab</a></p>
+        <div class="profile">
+          <img class="portrait" src="/images/android-chrome-512x512.png" alt="Wang Yuchen" width="220" height="220">
+          <p class="contact-links"><a href="mailto:wangyuc@mail.ustc.edu.cn">Email</a><span aria-hidden="true">·</span><a href="https://github.com/sansanyuchen">GitHub ↗</a></p>
         </div>
-        <img class="portrait" src="/images/android-chrome-512x512.png" alt="Wang Yuchen" width="180" height="180">
+        <div class="bio">
+          <h1 id="about-title">Hi, I'm <em>Wang Yuchen</em>.</h1>
+          <div class="about-copy"><p>I am an M.S. student in Computer Technology at the University of Science and Technology of China (USTC), advised by Prof. Xiaoyan Sun in the <a href="https://vilab.team/">Vision Intelligence Laboratory (ViLab)</a>. I expect to graduate in June 2027.</p>
+<p>I am currently a Research Intern at <a href="https://unipat.ai/">Unipat</a>, working on visual coding, data synthesis, and benchmark development and evaluation. My research also spans LLM post-training, reinforcement learning for reasoning, and efficient multimodal inference. I welcome academic collaborations in these areas.</p></div>
+          <div class="research-focus"><h2>Research focus</h2><ul><li>Visual coding</li><li>Data synthesis</li><li>Benchmarking</li></ul></div>
+        </div>
       </section>
       <section class="news-section" id="news" aria-labelledby="news-title">
-        <div class="section-heading"><h2 id="news-title">News</h2></div>
-        <ul class="news-list"><li><time>2026.10</time><span>Joined <strong><a href="https://unipat.ai/">Unipat</a></strong> as a Research Intern.</span></li><li><time>2026.08</time><span><strong>APEX</strong> was accepted by <strong>EMNLP 2026</strong> (First Author).</span></li><li><time>2026.07</time><span><strong>RP-OPSD</strong> was released on arXiv and submitted to <strong>AAAI 2027</strong> (Co-first Author).</span></li><li><time>2026.04</time><span>Joined <strong>ByteDance Data - Douyin</strong> as an Application Algorithm Intern.</span></li><li><time>2026.03</time><span><strong>SepPrune</strong> was accepted by <strong>ICME 2026</strong> (First Author).</span></li><li><time>2026.03</time><span><strong>HAWK</strong> was accepted by <strong>CVPR 2026</strong>.</span></li></ul>
+        <div class="section-heading"><h2 id="news-title">News &amp; timeline</h2></div>
+        <ul class="news-list"><li><time datetime="2026-10">2026.10</time><span>Joined <a href="https://unipat.ai/">Unipat</a> as a Research Intern.</span></li><li><time datetime="2026-08">2026.08</time><span><strong>APEX</strong> was accepted by <strong>EMNLP 2026</strong> (First Author).</span></li><li><time datetime="2026-07">2026.07</time><span><strong>RP-OPSD</strong> was released on arXiv and submitted to <strong>AAAI 2027</strong> (Co-first Author).</span></li></ul>
+        <details class="earlier-news"><summary>Earlier updates</summary><ul class="news-list"><li><time datetime="2026-04">2026.04</time><span>Joined <strong>ByteDance Data - Douyin</strong> as an Application Algorithm Intern.</span></li><li><time datetime="2026-03">2026.03</time><span><strong>SepPrune</strong> was accepted by <strong>ICME 2026</strong> (First Author).</span></li><li><time datetime="2026-03">2026.03</time><span><strong>HAWK</strong> was accepted by <strong>CVPR 2026</strong>.</span></li></ul></details>
       </section>
       <section class="content-section" id="publications" aria-labelledby="publications-title">
         <div class="section-heading"><h2 id="publications-title">Publications</h2></div>
@@ -42,7 +50,7 @@
   <div class="pub-item">
     <button class="pub-teaser" type="button" data-figure="/images/publications/apex-overview.png" data-caption="Overview of the APEX adaptive off-policy guidance and on-policy exploration framework" aria-label="Enlarge figure: Overview of the APEX adaptive off-policy guidance and on-policy exploration framework"><img src="/images/publications/apex-overview.png" alt="Overview of the APEX adaptive off-policy guidance and on-policy exploration framework" width="1143" height="633" loading="lazy" decoding="async"></button>
     <div class="pub-body">
-      <div class="pub-title">APEX: Adaptively Balancing Off-Policy Guidance and On-Policy Exploration for LLM Reasoning</div>
+      <h3 class="pub-title">APEX: Adaptively Balancing Off-Policy Guidance and On-Policy Exploration for LLM Reasoning</h3>
       <div class="pub-authors"><strong>Yuchen Wang</strong>, et al. <span class="pub-role">First author</span></div>
       <div class="pub-affiliation">University of Science and Technology of China.</div>
       <div class="pub-meta"><span class="pub-badge">EMNLP 2026</span><span class="pub-dot">Accepted</span></div>
@@ -52,7 +60,7 @@
   <div class="pub-item">
     <button class="pub-teaser" type="button" data-figure="/images/publications/sepprune-overview.png" data-caption="Overview of separator-guided visual token pruning in SepPrune" aria-label="Enlarge figure: Overview of separator-guided visual token pruning in SepPrune"><img src="/images/publications/sepprune-overview.png" alt="Overview of separator-guided visual token pruning in SepPrune" width="2083" height="1100" loading="lazy" decoding="async"></button>
     <div class="pub-body">
-      <div class="pub-title">SepPrune: A Separator-based Pruning Framework for Efficient Multimodal Large Language Models</div>
+      <h3 class="pub-title"><a href="https://arxiv.org/abs/2607.25818">SepPrune: A Separator-based Pruning Framework for Efficient Multimodal Large Language Models</a></h3>
       <div class="pub-authors"><strong>Yuchen Wang</strong>, Qihui Zhu, Yang Liu, Xiaoyan Sun, Siying Wu. <span class="pub-role">First author</span></div>
       <div class="pub-affiliation">University of Science and Technology of China; Hefei Comprehensive National Science Center; ChangXin Memory Technologies.</div>
       <div class="pub-meta"><span class="pub-badge">ICME 2026</span><span class="pub-dot">Accepted</span><a href="https://arxiv.org/abs/2607.25818">paper</a></div>
@@ -62,7 +70,7 @@
   <div class="pub-item">
     <button class="pub-teaser" type="button" data-figure="/images/publications/rp-opsd-overview.png" data-caption="Overview of resolution-privileged on-policy self-distillation in RP-OPSD" aria-label="Enlarge figure: Overview of resolution-privileged on-policy self-distillation in RP-OPSD"><img src="/images/publications/rp-opsd-overview.png" alt="Overview of resolution-privileged on-policy self-distillation in RP-OPSD" width="3173" height="1380" loading="lazy" decoding="async"></button>
     <div class="pub-body">
-      <div class="pub-title">RP-OPSD: Resolution-Privileged On-Policy Self-Distillation for Multimodal Large Language Models</div>
+      <h3 class="pub-title"><a href="https://arxiv.org/abs/2607.24447">RP-OPSD: Resolution-Privileged On-Policy Self-Distillation for Multimodal Large Language Models</a></h3>
       <div class="pub-authors">Qihui Zhu, <strong>Yuchen Wang</strong>, Zijian Wen, Tao Zhang, Mengjie Zhang, Yang Liu, Shuangwu Chen, Siying Wu, Jian Yang, Xiaofeng Jiang. <span class="pub-role">Co-first author</span></div>
       <div class="pub-affiliation">University of Science and Technology of China; ChangXin Memory Technologies, Inc.</div>
       <div class="pub-meta"><span class="pub-badge pub-badge--submitted">AAAI 2027</span><span class="pub-dot">Under review</span><a href="https://arxiv.org/abs/2607.24447">paper</a><a href="https://github.com/sansanyuchen/RP-OPSD">code</a></div>
@@ -72,7 +80,7 @@
   <div class="pub-item">
     <button class="pub-teaser" type="button" data-figure="/images/publications/hawk-overview.png" data-caption="Overview of head importance-aware visual token pruning in HAWK" aria-label="Enlarge figure: Overview of head importance-aware visual token pruning in HAWK"><img src="/images/publications/hawk-overview.png" alt="Overview of head importance-aware visual token pruning in HAWK" width="1290" height="630" loading="lazy" decoding="async"></button>
     <div class="pub-body">
-      <div class="pub-title">HAWK: Head Importance-Aware Visual Token Pruning in Multimodal Models</div>
+      <h3 class="pub-title"><a href="https://arxiv.org/abs/2604.07812">HAWK: Head Importance-Aware Visual Token Pruning in Multimodal Models</a></h3>
       <div class="pub-authors">Qihui Zhu, Tao Zhang, <strong>Yuchen Wang</strong>, Shuangwu Chen, Xiaobin Tan, Jian Yang, Yang Liu, Yinfei Pan.</div>
       <div class="pub-affiliation">University of Science and Technology of China; ChangXin Memory Technologies, Inc.; Huawei Noah's Ark Lab.</div>
       <div class="pub-meta"><span class="pub-badge">CVPR 2026</span><span class="pub-dot">Accepted</span><a href="https://arxiv.org/abs/2604.07812">paper</a></div>
@@ -144,7 +152,7 @@
       </section>
       <section class="content-section" id="education" aria-labelledby="education-title">
         <div class="section-heading"><h2 id="education-title">Education</h2></div>
-        <div class="education-row"><div class="education-date">Sep. 2024 — Jun. 2027<br><span>Expected Jun. 2027</span></div><div><h3>University of Science and Technology of China</h3><p>M.S. in Computer Technology</p><p class="subtle">Advisor · Prof. Xiaoyan Sun<br><a href="https://vilab.team/">Vision Intelligence Laboratory (ViLab)</a></p></div></div>
+        <div class="education-row"><div class="education-date">Sep. 2024 — Jun. 2027<br><span>(expected)</span></div><div><h3>University of Science and Technology of China</h3><p>M.S. in Computer Technology</p><p class="subtle">Advisor · Prof. Xiaoyan Sun<br><a href="https://vilab.team/">Vision Intelligence Laboratory (ViLab)</a></p></div></div>
 <div class="education-row"><div class="education-date">Sep. 2020 — Jun. 2024</div><div><h3>North China Electric Power University</h3><p>Bachelor's in New Energy Science and Engineering</p></div></div>
       </section>
       <section class="content-section additional" id="additional" aria-label="Skills, research interests, and honors">
