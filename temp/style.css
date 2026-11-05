@@ -54,7 +54,9 @@ button { font: inherit; }
 .about-section { display: grid; grid-template-columns: 220px minmax(0, 1fr); align-items: start; gap: 65px; padding: 60px 0 58px; }
 .profile { padding-top: 3px; }
 .portrait { width: 220px; height: 220px; object-fit: contain; display: block; }
-.contact-links { display: flex; gap: 20px; justify-content: center; align-items: center; margin-top: 20px; font-size: 11px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; }
+.profile-contact { margin-top: 16px; text-align: center; min-width: 0; }
+.contact-email { font-size: 14px; overflow-wrap: anywhere; }
+.contact-links { display: flex; flex-wrap: wrap; gap: 4px 8px; justify-content: center; align-items: center; margin-top: 6px; font-size: 13px; }
 .contact-links a { color: var(--muted); }
 .contact-links a:hover { color: var(--purple); }
 .contact-links span { color: #c4bed0; }
@@ -162,8 +164,8 @@ footer a { color: var(--muted); }
   .about-section { display: block; padding: 32px 0 35px; }
   .profile { display: flex; align-items: center; gap: 26px; padding: 0; margin-bottom: 25px; }
   .portrait { width: 105px; height: 105px; }
-  .contact-links { flex-direction: column; align-items: flex-start; gap: 8px; margin: 0; font-size: 10px; }
-  .contact-links span { display: none; }
+  .profile-contact { margin: 0; text-align: left; }
+  .contact-links { justify-content: flex-start; }
   .bio h1 { font-size: 24px; letter-spacing: -.6px; margin-bottom: 18px; }
   .research-focus ul { font-size: 13px; gap: 5px 12px; justify-content: flex-start; }
   .news-section, .content-section { padding: 31px 0 35px; }
